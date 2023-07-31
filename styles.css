@@ -1,0 +1,171 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contenido-total{
+    background: #0A3871;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encriptador{
+    width: 960px;
+    height: 650px;
+    border-radius: 5px;
+    background: #F3F5FC;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-descripcion{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.texto {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.texto-encriptado {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#inputTexto {
+    margin: 1rem auto;
+    width: 90%;
+    height: 40%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2rem;
+    resize: none;
+}
+
+.texto-advertencia {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #e24343;
+}
+
+.contenedor-botones {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    margin: auto;
+}
+
+.btn-encriptar {
+    background-color: rgb(66, 66, 240);
+    padding: 1rem;
+    border: 1px solid rgb(66, 66, 240);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.btn-encriptar:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: ease-in-out;
+}
+
+.btn-desencriptar {
+    background-color: rgb(66, 66, 240);
+    padding: 1rem;
+    border: 1px solid rgb(66, 66, 240);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.btn-desencriptar:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transition: ease-in-out;
+}
+
+/* texto desencriptado */
+.texto-desencriptado{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-imagen {
+    margin: 1rem auto;
+    width: 90%;
+    height: 40%;
+}
+
+#imagen {
+    height: 100%;
+    width: 100%;
+}
+
+#texto-desencriptado {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #4fe9fa;
+}
+
+.contenido-encriptado {
+    width: 100%;
+    height: 100%;
+}
+
+#inputTextoDesencriptar {
+    width: 90%;
+    height: 40%;
+    margin: 1rem auto;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2rem;
+    resize: none;
+}
+
+#texto-encriptado {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #13eb21;
+
+}
+
+.contendor-boton-copiar {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#btn-copiar {
+    background-color: rgb(66, 66, 240);
+    padding: 1rem;
+    border: 1px solid rgb(66, 66, 240);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+#btn-copiar:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: ease-in-out;
+}
+

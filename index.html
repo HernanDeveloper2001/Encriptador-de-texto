@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenger-01</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,600;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="contenido-total">
+        <section class="encriptador">
+            <div class="contenedor-descripcion">
+                <img class="logoImg" src="img/logo.png" alt="logo">
+                <h1 class="title">Encriptador de mensajes</h1>
+            </div>
+
+            <section class="texto">
+                <!-- texto encriptado -->
+                <article class="texto-encriptado">
+                        <textarea id="inputTexto" cols="30" rows="10" placeholder="Escribe tu texto para encriptar"></textarea>
+                        <p class="texto-advertencia">Solo minusculas y sin acentos</p>
+                        <div class="contenedor-botones">
+                            <button type="button" class="btn-encriptar">Encriptar</button>
+                            <button type="button" class="btn-desencriptar">Desencriptar</button>
+                        </div>
+                </article>
+
+                <!-- texto desenciptado -->
+                <article class="texto-desencriptado">
+                    
+                    <div class="contenedor-imagen">
+                        <img src="img/muneco.png" alt="imagen" id="imagen">
+                        <p id="texto-desencriptado">Ningun mensaje fue encontrado</p>
+                    </div>
+
+                    <div class="contenido-encriptado">
+                        <textarea id="inputTextoDesencriptar" cols="30" rows="10"></textarea>
+                        <p id="texto-encriptado">Tú mensaje esta encriptado</p>
+                        <div class="contendor-boton-copiar">
+                            <button id="btn-copiar" type="button" name="button">Copiar</button>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
